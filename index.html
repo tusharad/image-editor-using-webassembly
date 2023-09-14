@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Editor using web assembly</title>
+</head>
+<body>
+    <h1>Image editor using web-assembly</h1>
+    <div class="upload-image">
+        <input type="file" id="image-input" />
+        <button id="upload-btn">Upload</button>
+        <button id="mirror-btn">Mirror it</button>
+    </div>
+    <div class="display-img">
+        <canvas id="canvas">
+
+        </canvas>
+    </div>
+    <div class="download-section">
+        <button id="download-btn">Download PPM</button>
+    </div>
+</body>
+<script src="myScript.js"></script>
+<script type="text/javascript" src="_logic.js"></script>
+</html>
